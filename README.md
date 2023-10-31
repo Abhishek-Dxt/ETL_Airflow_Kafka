@@ -1,4 +1,4 @@
-# Performing ETL by building a workflow using Airflow, streaming data to Kafka and later loading it to a MySQL database
+# Performing ETL by building a workflow using Airflow, streaming data real-time using Kafka and storing it into a MySQL database
 
 In this project I will be collecting data from different file formats (csv, tsv, fixed width) and consolidating it by building a DAG workflow on Apace Airflow, which then streams the data in real-time to Apache Kafka. From this point, I will create a data pipeline that collects the streaming data and loads it into a database.
 
